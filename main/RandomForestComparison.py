@@ -1,9 +1,7 @@
 import numpy as np
-import sys
-from pathlib import Path
-sys.path.append(str(Path(__file__).resolve().parent.parent))
-from main.randomForest import RandomForestClassifier
-from main.regularized_decisionTree import build_tree, predict
+
+from randomForest import RandomForestClassifier
+from regularized_decisionTree import build_tree, predict
 from sklearn.datasets import make_classification
 
 def train_test_split(X, y, test_size=0.25, seed=0):
