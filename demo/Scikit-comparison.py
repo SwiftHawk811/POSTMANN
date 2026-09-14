@@ -22,4 +22,4 @@ print(f"Scikit-learn decision tree train accuracy: {train_accuracy*100:.2f}%")
 print(f"Scikit-learn decision tree test accuracy: {test_accuracy*100:.2f}%")
 
 print("Self implemented decision tree train accuracy: 85.71%")
-print("Self implemented decision tree test accuracy: 79.85%")
+print("Self implemented decision tree test accuracy: 78.95%")

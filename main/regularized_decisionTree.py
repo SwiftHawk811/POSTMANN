@@ -53,7 +53,6 @@ def build_tree(X, y, depth=0, max_depth=3, min_samples_split=8,
             or len(np.unique(y)) == 1):
         return Node(leaf=True, prediction=majority(y), n=len(y))
 
-    # (this argument does nothing yet -- you will use it for decision trees)
     subset = None
     if feature_subset_size is not None:
         subset = np.random.choice(X.shape[1], feature_subset_size, replace=False)
